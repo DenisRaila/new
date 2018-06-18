@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Dai"
+  },
+  "text": {
+    "more": "Сообщества получились насколько возможно корректными(к сожалению, в связи с малым количеством друзей граф потерял в красоте и объективности, но что делать). \nВ нем можно выделить три более или менее большие связки - люди со старого факультета[фиолетовый], с нового(которые связаны со старым)[красный], мои друзья с древнегреческого и тп[зеленый], а также ребята с чистых прудов[синий]. \nВ общем и целом все красиво и правдиво. \nУра.",
+    "intro": "Дружественные связки",
+    "title": "Idk"
+  },
+  "legend": {
+    "edgeLabel": "связки",
+    "colorLabel": "black/white",
+    "nodeLabel": "точки"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
